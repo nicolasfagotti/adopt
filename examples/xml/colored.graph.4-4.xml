@@ -1,0 +1,95 @@
+<adopt>
+<domains>
+  <domain name="domain">
+    <value>0</value>
+    <value>1</value>
+  </domain>
+</domains>
+
+<agents>
+  <agent name="Agent0" />
+  <agent name="Agent1" />
+  <agent name="Agent2" />
+  <agent name="Agent3" />
+</agents>
+
+<variable root="Var0">
+  <var name="Var0" agent="Agent0" domain="domain" />
+  <var name="Var1" agent="Agent1" domain="domain" />
+  <var name="Var2" agent="Agent2" domain="domain" />
+  <var name="Var3" agent="Agent3" domain="domain" />
+</variable>
+
+<constraints variable1="Var0" variable2="Var1">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var0" variable2="Var2">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var1" variable2="Var2">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var1" variable2="Var3">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+</constraints>
+</adopt>

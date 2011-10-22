@@ -1,0 +1,450 @@
+<adopt>
+<domains>
+  <domain name="domain">
+    <value>0</value>
+    <value>1</value>
+    <value>2</value>
+  </domain>
+</domains>
+
+<agents>
+  <agent name="Agent0" />
+  <agent name="Agent1" />
+  <agent name="Agent2" />
+  <agent name="Agent3" />
+  <agent name="Agent4" />
+  <agent name="Agent5" />
+  <agent name="Agent6" />
+  <agent name="Agent7" />
+</agents>
+
+<variable root="Var0">
+  <var name="Var0" agent="Agent0" domain="domain" />
+  <var name="Var1" agent="Agent1" domain="domain" />
+  <var name="Var2" agent="Agent2" domain="domain" />
+  <var name="Var3" agent="Agent3" domain="domain" />
+  <var name="Var4" agent="Agent4" domain="domain" />
+  <var name="Var5" agent="Agent5" domain="domain" />
+  <var name="Var6" agent="Agent6" domain="domain" />
+  <var name="Var7" agent="Agent7" domain="domain" />
+</variable>
+
+<constraints variable1="Var0" variable2="Var7">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var1" variable2="Var2">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var1" variable2="Var7">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var2" variable2="Var3">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var3" variable2="Var4">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var4" variable2="Var5">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var5" variable2="Var6">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var2" variable2="Var7">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var6" variable2="Var4">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var3" variable2="Var6">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+<constraints variable1="Var3" variable2="Var0">
+  <constraint cost="1">
+    <value>0</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>0</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="1">
+    <value>1</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="0">
+    <value>1</value>
+    <value>2</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>0</value>
+  </constraint>
+  <constraint cost="0">
+    <value>2</value>
+    <value>1</value>
+  </constraint>
+  <constraint cost="1">
+    <value>2</value>
+    <value>2</value>
+  </constraint>
+</constraints>
+</adopt>
